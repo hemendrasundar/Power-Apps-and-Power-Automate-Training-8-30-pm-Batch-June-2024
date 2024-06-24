@@ -1,0 +1,256 @@
+1. Powerapps Studio - make.powerapps.com
+2. Mobile/Tablet
+3. Screen - Collection Controls.
+4. Controls - UI elements.
+5. Data /Data Sources
+6. Media
+7. App Checker
+8. Save Publish Share
+   To share , Select the app Click on Share and Find People and share the app. Get The web link of the app and give to the users.
+
+Day - 4
+
+ 1. Text Label -> To display any Information
+
+    Key Properties :
+
+     1. Text 
+
+    Actions/Event :
+     1. OnSelect
+
+2. Text Input -> To enter or input or capture the text from end user.
+
+   Key Properties :
+
+    1. Default
+    2. Format -> Text / Number
+    3. Hint Text -> To show instructions to the end user 
+    4. Clear Button 
+    5. Max Length.
+    6. Mode -> Single Line/Multi Line /Password
+
+   Actions/Event :
+     1. OnSelect
+     2. OnChange
+
+3. Image -> To show Images in the App
+   
+   Key Properties :
+
+   1. Image -> Pick images from Stock Images or From the media section of the app.
+   2. Fit -> Fill/ Fit/Stretch / Tile
+   
+  Actions/Event :
+     1. OnSelect
+
+4. Video -> to play videos in the powerapp
+
+   Key Properties :
+
+   1. Media -> Choose the video that needs to be played.
+   2. Show controls -> Boolean -> turn on / turnoff
+   3. Auto Start -> Boolean -> turn on / turnoff
+   4. Loop -> Boolean -> turn on / turnoff
+   5. Start Time -> set the start time of the video
+
+  Actions/Event :
+     1. OnStart
+     2. OnPause
+     3. OnEnd 
+
+5. Button -> clickable 
+
+  Key Properties :
+
+  Text : Button Text
+
+  Action/Event :
+
+  1. OnSelect 
+
+
+6. Shapes / Icons
+
+Action/Event :
+
+  1. OnSelect 
+
+
+7. Timer
+
+Action/Event :
+
+  1. OnSelect 
+  2. OnTimerStart
+  3. OnTimerEnd
+
+
+
+ 
+8. Slider
+
+Action/Event :
+
+  1. OnSelect 
+  2. OnChange
+
+
+
+9. Rating
+
+Action/Event :
+
+  1. OnSelect 
+  2. OnChange
+
+
+10. DropDown
+ 
+ Dropdown is to display list of options in power Apps We need to pass an array to the Items property.
+
+ Creating array in PowerApps in very simple. Pass values inside [] and use comma(,) as a separator. 
+
+  ex: ["PowerApps","Power Automate","PVA"]
+      [1,2,3,4]
+
+ Key Properties:
+
+ 1. Items -> "PowerApps" , "Power Automate" , "PVA" , Array -> 
+ 2. default 
+
+
+Action/Event :
+
+ 1. OnSelect
+ 2. OnChange
+
+
+Limitations of Dropdown :
+
+1. No Searching Capability
+2. Only Single select
+
+11. ComboBox
+
+12. HTML Text.
+
+We use Label to display plain text, We a use HTML text to display Html in PowerApps.
+ 
+
+ Naming conventions :
+
+1. How to name controls, Variables , collections etc in PowerApps.
+
+Screen Names :
+
+A screen name should describe its purpose in 1-2 words suffixed by the word ‘Screen’. Use proper-case.
+
+ex: Home Screen
+
+Control Names :
+
+A control name should indicate the control-type, which screen is found on and its purpose. Use camel-case separated each piece of information with an underscore. This example shows a text input, found on the Order Form Screen whose purpose is to capture the first name of the person placing the order.
+
+Ex: txt_OrderForm_FirstName
+
+Variable Names :
+
+Collection Names :
+
+Datasource Names :
+
+
+Colors exist in Multiple formats in PowerApps
+
+1. Hex Codes  
+2. RGBA  (Red, Green, Blue,Alpha)(0-255,0-255,0-255,0-1)
+3. Color Enum.
+4. Standard Color Picker
+
+
+Variables:
+
+
+Container Which holds some values.
+
+12342423
+
+"jsgdiusd"
+
+0.23
+
+true
+false
+
+
+use 'var_Age' ,'var_Age' these king of naming conventions.
+
+1. Local Variable / Contextual Variables ->  Scope - Only that Screen
+
+   UpdateContext({varName:"Hemendra"});   
+   UpdateContext({varAge:12121});
+
+2. Global Variable -> Scope - Entire PowerApp
+
+   Set(variableName,value);
+
+
+
+JSON
+
+ [
+
+  "Rajesh","Ritesh"
+
+ ]
+
+Array of Objects
+
+ 
+[
+{
+  Name:"Rajesh",
+  Phone:878428423,
+  Email:"rajesh@gmail.com"
+},
+{
+Name: "Ritesh",
+Phone: 123213123,
+Email: "ritesh@gmail.com"
+}
+]
+
+
+
+
+
+
+Collections:
+
+Group of objects
+
+Objects are key - value pairs
+
+
+1. Collect - is the function to create a collection in PowerApps.
+
+  Syntax :
+
+  Collect(collection_name,objects separated by comma(,));
+  Collect(colEmployees,{name:"",ph:121},{name:"",ph:121},{name:"",ph:121},{name:"",ph:121});
+  use 'col' prefix in the collection variable name, to easily identify the collection.
+
+
+
+
+Gallery :
+
+UI control to display list of items.
+ 
+
+
+
+
+
+
