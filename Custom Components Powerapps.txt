@@ -1,0 +1,128 @@
+Custom components
+=================
+
+=> Reusable controls in a canvas app.
+
+=> useful when building large applications that have similar control patterns.
+
+=> it reduces duplication by removing t the effort of copy/paste the controls.
+
+=> standardization of UI designs.
+
+
+
+Custom Properties:
+==================
+
+any component will receive the data and also emit the data.
+
+
+1. Input : 
+=========
+
+component will take some data as a input so we can dynamically adjust or control the behavior of the component.
+
+
+
+2. OutPut:
+===========
+
+if you want to provide any information/data out of the component the we will go with output property.
+
+
+=> (Experimental Feature)
+
+1. Data :
+===========
+
+using this type of property the data can be transferred between component and powerapp.
+
+data like, Text , color, number.
+
+1.Input Data
+2.Output Data
+
+
+2. Function
+=============
+
+Reusable code block to perform a calculation or a task based on specific parameters.
+
+1. Input Functions
+
+PowerApp Provides this function the component to call.
+Component is caller of the function.
+
+2. Output Functions
+
+Component provides function the app can Call
+PowerApp is caller of the function.
+
+=>if we have any variables, this function cannot directly use those variables.
+
+=>you have to only pass as a parameter to the function
+
+
+
+Set(varUser,User().FullName);
+
+
+SplitStringByComma(varUser)
+
+
+function SplitStringByComma(text)
+{
+
+   Split(text)
+
+}
+
+
+
+
+3. Action
+==========
+
+it is similar to output function.
+
+the function is defined inside the component.
+
+But we can manipulate the collection , datasources and variables.
+
+
+Clear()
+
+Searbar.Clear()
+
+Searchbar.Save()
+
+
+
+
+4. Event
+=========
+
+input Function
+
+1. OnSelect
+2. OnChange
+3. OnCheck
+
+
+
+
+--------------------------------
+
+=> if we want to use the components across the Apps then we have create these custom components inside a "component library".
+
+Component library
+==================
+
+=> Component library is the collection of all these custom components and it is accessible by all the applications in the environment.
+
+=> if you want to give other developers access to edit the component library the we have to share the component library with the developer and grant them co-owner access.
+
+=> pick/choose components of component library from import components option.
+
+
+
