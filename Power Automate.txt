@@ -1,0 +1,39 @@
+Power Automate:
+===============
+
+=> tool to create workflows automation.
+
+
+1. trigger
+2. Actions
+
+
+Types of Power Automate Flows:
+=============================
+=> Automated Cloud Flows -> It is triggered by a designated event
+=> Instant Flows  -> manual trigger
+=> Scheduled Flows -> Scheduled - Interval
+=> Business Process Flows - module 3 (MDA)
+=> Desktop Flows - (RPA).
+
+Variables:
+===========
+
+=>Initialise Variable -> is used to create a variable
+
+- Name of the variable
+- Type of the variable -> String/Array/Object/Boolean/Integer/Float
+- Value
+
+=> Set Variable -> is used to set value to any variable. It overrides the existing/current value of the variable.
+
+=> Append to String Variable -> Pick the sting variable and provide what value to be appended.
+
+=> Increment Variable -> We have pick the integer/Float Variable and provide the value that you want the variable to be incremented by. 
+
+=> Decrement Variable -> We have pick the integer/Float Variable and provide the value that you want the variable to be Decrement by. 
+
+=> Append to Array Variable -> used to add objects to the array variable.
+To create array variable we need to provide valid JSON.
+
+
