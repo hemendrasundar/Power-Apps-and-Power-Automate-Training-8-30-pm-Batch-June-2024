@@ -1,0 +1,22 @@
+Some interview questions @Power automate.
+
+1.Explain the use of the "Get items" action in Power Automate.
+2.How can you update SharePoint items using Power Automate?
+3.What is the purpose of the "Check Out File" and "Check In File" actions in SharePoint flows?
+4.How does Power Automate integrate with OneDrive?
+5.Can you create a flow that saves email attachments to OneDrive?
+6.Explain the process of creating a flow that triggers based on a new file in OneDrive.
+7.How do you use Power Automate to create OneNote pages automatically?
+8.Can you set up a flow to extract data from OneNote using Power Automate?
+9.How do you connect Power Automate to an on-premises SQL Server?
+10.Can you create flows that insert, update, or delete records in SQL Server?
+11.Explain the use of the "SQL Server - Get rows" action in Power Automate.
+12.What authentication options are available when working with SQL Server in Power Automate?
+13.How do you handle errors when interacting with SQL Server in a flow?
+14.How can you implement OAuth 2.0 authentication in Power Automate for external APIs?
+15.Explain the use of the "HTTP" action in Power Automate for custom API calls.
+16.Can you work with APIs that require API keys or bearer tokens in Power Automate?
+17.What are the considerations for handling pagination in external API responses?
+18.How do you parse and handle JSON responses from external APIs in Power Automate?
+19.What is Robotic Process Automation (RPA), and how does it relate to Power Automate?
+20.Can you explain the integration between Power Automate and Power Automate Desktop for RPA?
